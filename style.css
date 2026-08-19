@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #801c1c;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: #d25656;
+    color: #222222;
+    border-radius: 16px;
+    padding: 24px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
